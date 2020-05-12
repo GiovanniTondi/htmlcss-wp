@@ -1,4 +1,6 @@
 /* Regole generali */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
     margin: 0;
@@ -6,19 +8,75 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background-pattern.png");
+    background-repeat: repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
 /* *** HEADER *** */
 header {
     /* DEBUG: per renderlo visibile */
-    height: 150px;
-    background-color: #fefe3a;
+    /* height: 150px; */
+    /* background-color: #fefe3a; */
+}
+
+#intestazione {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 400px;
+    /* Immagine */
+    background-image: url("../img/img-header.jpg");
+    background-position: center;
+    background-size: cover;
+    /* Bordi */
+    border: solid 10px #fff;
+    border-radius: 2px;
+}
+
+#titolo {
+    position: absolute;
+    /* width: 90%; */
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    text-shadow: 8px 10px 8px #1a1414;
+}
+
+#titolo h1 {
+    font-size: 62px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 8px #fff;
+}
+
+#titolo h2 {
+    font-size: 34px;
+}
+
+.layover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 37, 37, 0.25);
 }
 
 /* *** BODY *** */
-.container {
+.riga {
     margin: 20px 0;
 }
 
-.container::after {
+.riga::after {
     content: "";
     display: table;
     clear: both;
