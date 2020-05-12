@@ -149,19 +149,24 @@ header {
 
 .box h3 {
     font-size: 24px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 .box p {
+    margin: 10px auto;
+}
+
+.box .testo {
     line-height: 1.8em;
     font-size: 18px;
     margin: 50px auto 15px;
 }
 
-.box a {
+.box p a {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+    text-transform: capitalize;
     color: #594e40;
 }
 
