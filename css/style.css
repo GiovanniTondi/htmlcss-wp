@@ -1,7 +1,6 @@
 /* Regole generali */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +19,6 @@ body {
 }
 
 /* *** HEADER *** */
-header {
-    /* DEBUG: per renderlo visibile */
-    /* height: 150px; */
-    /* background-color: #fefe3a; */
-}
-
 #intestazione {
     position: relative;
     top: 0;
@@ -170,15 +163,6 @@ header {
     text-transform: capitalize;
     color: #594e40;
 }
-
-
-
-.sotto-blocco {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-
 
 /*  *** FOOTER *** */
 footer {
