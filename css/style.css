@@ -131,7 +131,7 @@ body {
 }
 
 .right {
-    float: right;
+    float: left;
     width: 20%;
 }
 
