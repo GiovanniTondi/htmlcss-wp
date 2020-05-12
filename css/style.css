@@ -167,6 +167,11 @@ body {
     color: #594e40;
 }
 
+#rss-img {
+    height: 25px;
+    margin-right: 5px;
+}
+
 /*  *** FOOTER *** */
 footer {
     border-radius: 5px;
