@@ -1,0 +1,64 @@
+/* Regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *** HEADER *** */
+header {
+    /* DEBUG: per renderlo visibile */
+    height: 150px;
+    background-color: #fefe3a;
+}
+
+/* *** BODY *** */
+.container {
+    margin: 20px 0;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    /* DEBUG: per renderlo visibile */
+    height: 400px;
+    background-color: #cc87da;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+.sotto-blocco {
+    width: 100%;
+    margin-bottom: 10px;
+    /* DEBUG: per renderlo visibile */
+    height: 275px;
+    background-color: #cc87da;
+}
+
+.content {
+    float: left;
+    width: 48%;
+    margin: 0 1%;
+    /* DEBUG: per renderlo visibile */
+    height: 600px;
+    background-color: #720570;
+}
+
+/*  *** FOOTER *** */
+footer {
+    /* DEBUG: per renderlo visibile */
+    height: 150px;
+    background-color: #a4d2e1;
+}
+
+/* ********************* */
