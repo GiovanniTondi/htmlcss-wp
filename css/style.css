@@ -124,10 +124,20 @@ header {
 /* Colonna centrale */
 .content {
     float: left;
-    width: 46%;
-    margin: 0 2%;
+    width: 54%;
+    margin: 0 3%;
 }
 
+/* colonne */
+.left {
+    float: left;
+    width: 20%;
+}
+
+.right {
+    float: right;
+    width: 20%;
+}
 
 /* regole generali box per il contenuto */
 .box {
@@ -138,28 +148,24 @@ header {
 }
 
 .box h3 {
-    margin-bottom: 25px;
     font-size: 24px;
+    margin: 10px auto;
 }
 
 .box p {
     line-height: 1.8em;
     font-size: 18px;
+    margin: 50px auto 15px;
 }
 
-/* colonne */
-.left {
-    float: left;
-    width: 25%;
-    /* DEBUG: per renderlo visibile */
-    height: 400px;
-    background-color: #cc87da;
+.box a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #594e40;
 }
 
-.right {
-    float: right;
-    width: 25%;
-}
+
 
 .sotto-blocco {
     width: 100%;
